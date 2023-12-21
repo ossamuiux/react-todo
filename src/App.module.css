@@ -1,3 +1,7 @@
 .app {
-  padding: 0 20px;
+  padding: 20px 20px 0;
+}
+.app h1 {
+  font-size: 30px;
+  font-weight: 700;
 }

@@ -1,0 +1,23 @@
+.todo_item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.todo_item label {
+  flex-grow: 1;
+  margin-right: 10px;
+  line-height: 32px;
+}
+.todo_item label.done {
+  text-decoration: line-through;
+  color: #666;
+}
+.todo_item button {
+  height: 32px;
+  padding: 0 5px;
+  border: 1px solid var(--primary-color);
+  background: none;
+  color: var(--primary-color);
+  font-size: 16px;
+  border-radius: 4px;
+}

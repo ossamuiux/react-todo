@@ -1,11 +1,29 @@
-/* @font-face {
+@font-face {
   font-family: 'Pretendard';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/Pretendard-Regular.eot);
-  src: url(../fonts/Pretendard-Regular.eot?#iefix) format('embedded-opentype'),
-    url(../fonts/Pretendard-Regular.woff) format('woff'), url(../fonts/Pretendard-Regular.ttf) format('truetype');
-} */
+  src: url(./assets/fonts/Pretendard-Regular.eot);
+  src: url(./assets/fonts/Pretendard-Regular.eot?#iefix) format('embedded-opentype'),
+    url(./assets/fonts/Pretendard-Regular.woff) format('woff'),
+    url(./assets/fonts/Pretendard-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  src: url(./assets/fonts/Pretendard-Medium.eot);
+  src: url(./assets/fonts/Pretendard-Medium.eot?#iefix) format('embedded-opentype'),
+    url(./assets/fonts/Pretendard-Medium.woff) format('woff'),
+    url(./assets/fonts/Pretendard-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./assets/fonts/Pretendard-Bold.eot);
+  src: url(./assets/fonts/Pretendard-Bold.eot?#iefix) format('embedded-opentype'),
+    url(./assets/fonts/Pretendard-Bold.woff) format('woff'), url(./assets/fonts/Pretendard-Bold.ttf) format('truetype');
+}
 
 /* 브라우저 기본 폰트크기 16px -> 10px */
 /* :root {
@@ -21,11 +39,11 @@
 
 /* 컬러 변수 */
 :root {
-  --primary-color: #32a13c;
+  --primary-color: #b83030;
   --secondary-color: #dd3175;
   --text-color-100: #fff;
-  --text-color-400: #999;
-  --text-color-500: #666;
+  --text-color-400: #666;
+  --text-color-500: #333;
   --text-color-600: #222;
   --text-color-900: #000;
 }
@@ -217,8 +235,8 @@ select,
 textarea,
 button,
 table {
-  font-family: 'Noto Sans KR', '맑은 고딕', 'malgun gothic', 'Apple SD Gothic Neo', sans-serif;
-  font-size: 16px;
+  font-family: 'Pretendard', '맑은 고딕', 'malgun gothic', 'Apple SD Gothic Neo', sans-serif;
+  font-size: 14px;
   color: var(--text-color-600);
 }
 
