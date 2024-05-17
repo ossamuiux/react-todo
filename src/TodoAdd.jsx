@@ -5,15 +5,17 @@ export default function TodoAdd({ todos, setTodos }) {
   const [txt, setTxt] = useState('');
 
   function handleAdd() {
-    setTxt('');
-    setTodos([
-      ...todos,
-      {
-        id: todos.length + 1,
-        text: txt,
-        done: false,
-      },
-    ]);
+    if (txt) {
+      setTxt('');
+      setTodos([
+        ...todos,
+        {
+          id: todos.length + 1,
+          text: txt,
+          done: false,
+        },
+      ]);
+    }
   }
 
   function handleEnter(e) {
